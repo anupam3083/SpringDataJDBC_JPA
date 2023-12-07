@@ -1,0 +1,6 @@
+select * from course;
+
+insert into course(id,name,author)
+values(1,'GCP','in22minutes');
+
+delete from course where id=1;
